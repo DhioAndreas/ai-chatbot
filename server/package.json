@@ -1,0 +1,22 @@
+{
+  "name": "ai-chatbot-server",
+  "version": "1.0.0",
+  "description": "Server for AI Chatbot with Ollama",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "ai",
+    "chatbot",
+    "ollama"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.22.1",
+    "ollama": "^0.5.18"
+  }
+}
